@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-side">
+        <h1>Muzic Safar</h1>
+        <div class="playlist">
+          <h4><i class="bi bi-music-note-beamed"></i> <span>Playlist</span></h4>
+          <h4><i class="bi bi-music-note-beamed"></i><span>Recents</span></h4>
+          <h4><i class="bi bi-music-note-beamed"></i><span>oldies</span></h4>
+        </div>
+        <div class="menu_song">
+          <li class="song-item">
+            <span>01</span>
+            <img src="img/1.jpg" alt="" />
+            <h5>
+              Teri ore..<br />
+              <div class="artist">Shreya ghoshal</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="1"></i>
+          </li>
+          <li class="song-item">
+            <span>02</span>
+            <img src="img/2.jpg" alt="" />
+            <h5>
+              Tera_rasta..<br />
+              <div class="artist">Amitabh Bhattacharya</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="2"></i>
+          </li>
+          <li class="song-item">
+            <span>03</span>
+            <img src="img/3.jpg" alt="" />
+            <h5>
+              Teri_Galliyan..<br />
+              <div class="artist">Arjit Singh</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="3"></i>
+          </li>
+          <li class="song-item">
+            <span>04</span>
+            <img src="img/4.jpg" alt="" />
+            <h5>
+              Meri Aashiqui..<br />
+              <div class="artist">Amitabh Bhattacharya</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="4"></i>
+          </li>
+          <li class="song-item">
+            <span>05</span>
+            <img src="img/5.jpg" alt="" />
+            <h5>
+              Akhiyaan-Milavanga..<br />
+              <div class="artist">Amitabh Bhattacharya</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="5"></i>
+          </li>
+          <li class="song-item">
+            <span>06</span>
+            <img src="img/6.jpg" alt="" />
+            <h5>
+              srivalli..<br />
+              <div class="artist">Amitabh Bhattacharya</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="6"></i>
+          </li>
+          <li class="song-item">
+            <span>07</span>
+            <img src="img/7.jpg" alt="" />
+            <h5>
+              O saathi..<br />
+              <div class="artist">Amitabh Bhattacharya</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="7"></i>
+          </li>
+          <li class="song-item">
+            <span>08</span>
+            <img src="img/8.jpg" alt="" />
+            <h5>
+              Soch-Na-Sake..<br />
+              <div class="artist">Amitabh Bhattacharya</div>
+            </h5>
+            <i class="bi playListPlay bi-play-circle" id="8"></i>
+          </li>
+        </div>
+      </div>
+
+      <div class="song-side">
+        <nav>
+          <ul>
+            <li>Discovery <span> </span></li>
+            <li>My library</li>
+            <li>Radio</li>
+          </ul>
+          <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="search song..." />
+          </div>
+          <div class="user">
+            <img src="img/music.png" alt="" />
+          </div>
+        </nav>
+
+        <div class="content">
+          <h1>Pehli Nazar</h1>
+          <p>
+            Pehli nazar mein Kaise jaado kar diya Tera ban baita hai mera
+            jiya<br />
+            Jaane kya hoga Kya hoga kya pata Is pal ko milke aa jee le zara
+            <br />
+            Mein hoon yahan Tu hai yahan Meri bahon mein aa aa bhi ja O
+            jaan-e-jaan dono jahan...
+          </p>
+          <div class="buttons">
+            <button><i class="bi bi-play-fill"></i></button>
+            <button><i class="bi bi-heart"></i></button>
+          </div>
+        </div>
+
+        <!-- popular-song -->
+        <div class="popular-song">
+          <div class="h4">
+            <h4>Popular Song</h4>
+            <div class="btn-s">
+              <i class="bi bi-arrow-left-short" id="pop-song-left"></i>
+              <i class="bi bi-arrow-right-short" id="pop-song-right"></i>
+            </div>
+          </div>
+          <div class="pop-song">
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/9.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="9"></i>
+              </div>
+              <h5>
+                malang-sajna.. <br />
+                <div class="artist">Arjit Singh</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/10.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="10"></i>
+              </div>
+              <h5>
+                Chaleya.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/11.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="11"></i>
+              </div>
+              <h5>
+                Tum_kya_mile.. <br />
+                <div class="artist">Arjit Singh</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/12.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="12"></i>
+              </div>
+              <h5>
+                Dil-Diyan-Gallan.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/13.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="13"></i>
+              </div>
+              <h5>
+                Fikar-Not.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/14.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="14"></i>
+              </div>
+              <h5>
+                window_taley.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/15.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="15"></i>
+              </div>
+              <h5>
+                Heeriye.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/16.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="16"></i>
+              </div>
+              <h5>
+                Itni-Si-Baat.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/17.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="17"></i>
+              </div>
+              <h5>
+                kesariya.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="img-play">
+                <img src="img/18.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="18"></i>
+              </div>
+              <h5>
+                maan-meri-jaan.. <br />
+                <div class="artist">Amitabh Bhattacharya</div>
+              </h5>
+            </li>
+          </div>
+        </div>
+
+<!-- popular-artist -->
+        <div class="popular-artist">
+          <div class="h4">
+            <h4>Popular artist</h4>
+            <div class="btn-s">
+              <i class="bi bi-arrow-left-short" id="pop-art-left"></i>
+              <i class="bi bi-arrow-right-short" id="pop-art-right"></i>
+            </div>
+          </div>
+          <div class="item">
+            <li>
+              <img src="img/shreyaGhoshal.jpg" alt="" />
+              <div class="artist">Shreya G.</div>
+            </li>
+            <li>
+              <img src="img/ARrahman.jpg" alt="" />
+              <div class="artist">AR_rahman</div>
+            </li>
+            <li>
+              <img src="img/kumarSanu.jpg" alt="" />
+              <div class="artist">Kumar_Sanu</div>
+            </li>
+            <li>
+              <img src="img/uditNarayan.jpg" alt="" />
+              <div class="artist">Udit_Narayan</div>
+            </li>
+            <li>
+              <img src="img/arjit.jpg" alt="" />
+              <div class="artist">Arjit</div>
+            </li>
+            <li>
+              <img src="img/alkaYagnik.jpg" alt="" />
+              <div class="artist">Alka_Yagnik</div>
+            </li>
+            <li>
+              <img src="img/jubinnautiyal.jpg" alt="" />
+              <div class="artist">jubin_nautiyal</div>
+            </li>
+            <li>
+              <img src="img/KK.jpg" alt="" />
+              <div class="artist">KK</div>
+            </li>
+            <li>
+              <img src="img/shaan.jpg" alt="" />
+              <div class="artist">shaan</div>
+            </li>
+            <li>
+              <img src="img/shankarMahadevan.jpg" alt="" />
+              <div class="artist">shankar_MD</div>
+            </li>
+            <li>
+              <img src="img/vishalShekhar.jpg" alt="" />
+              <div class="artist">V-S</div>
+            </li>
+            <li>
+              <img src="img/sonuNigam.jpg" alt="" />
+              <div class="artist">sonu_Nigam</div>
+            </li>
+            <li>
+              <img src="img/papon.jpg" alt="" />
+              <div class="artist">papon</div>
+            </li>
+            <li>
+              <img src="img/tulsiKumar.jpg" alt="" />
+              <div class="artist">Tulsi_Kumar</div>
+            </li>
+          </div>
+        </div>
+      </div>
+
+      <!-- master play -->
+      <div class="master-play">
+        <div class="wave" id="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <img src="img/18.jpg" alt="" id="post_master_play" />
+        <h5 id="title">
+          Maan_meri_jaan..
+          <div class="artist">King</div>
+        </h5>
+        <div class="icon">
+          <i class="bi shuffle bi-music-note-beamed"></i>
+          <i class="bi bi-skip-start-fill"></i>
+          <i class="bi bi-play-fill" id="masterPlay"></i>
+          <i class="bi bi-skip-end-fill"></i>
+          <i class="bi bi-cloud-arrow-down-fill" id="dwnload"></i>
+        </div>
+        <span id="current-start">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100" />
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="current-end">0:30</span>
+        <div class="vol">
+          <i class="bi bi-volume-down-fill" id="vol-icon"></i>
+          <input type="range" id="vol" min="0" max="100" />
+          <div class="vol_bar"></div>
+          <div class="dot" id="vol-dot"></div>
+        </div>
+      </div>
+    </header>
+
+    <script src="music.js"></script>
+  </body>
+</html>
