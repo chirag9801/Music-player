@@ -30,14 +30,14 @@ header .menu-side,
   height: 90%;
   /* border: 1px solid #fff; */
   background-color: #4158d0;
-  background: #536376;
+  background: #c31432;
   box-shadow: 0px 0px 1px 0px #fff;
   color: white;
 }
 
 header .song-side {
   width: 75%;
-  background: linear-gradient(to right, #292e49, #414345);
+ background: linear-gradient(to top right, #c31432, #240b36);
   box-shadow: 0px 0px 1px #fff;
 }
 
@@ -45,7 +45,7 @@ header .master-play {
   width: 100%;
   height: 10%;
   /* border: 1px solid #fff; */
-  background: linear-gradient(to right, #292e49, #414345);
+  background: linear-gradient(to right, #c31432, #240b36);
   box-shadow: 0px 0px 1px #fff;
 }
 
@@ -537,10 +537,10 @@ header .song-side .content .buttons {
 header .song-side .content .buttons button {
   width: 70px;
   height: 25px;
-  border: 1px solid #2f7375;
+  border: 1.5px solid white;
   outline: none;
   border-radius: 10px;
-  background: #2f7375;
+  background: #654ea3;
   color: #e6e6e6;
   cursor: pointer;
   transition: 0.3s linear;
@@ -552,17 +552,17 @@ header .song-side .content .buttons button .bi {
 
 header .song-side .content .buttons button:hover {
   background: none;
-  color: #2f7375;
+  color: #654ea3;
 }
 
 header .song-side .content .buttons button:nth-child(2) {
   background: none;
-  color: #2f7375;
+  color: #654ea3;
 }
 
 header .song-side .content .buttons button:nth-child(2):hover {
   color: #e6e6e6;
-  background: #2f7375;
+  background: #654ea3;
 }
 
 /* popular-song */
