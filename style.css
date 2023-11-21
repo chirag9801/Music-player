@@ -672,7 +672,7 @@ header .song-side .popular-song .pop-song li h5 .artist {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: #818181;
+  color: #c4c4c4;
 }
 
 /* popular-artist */
